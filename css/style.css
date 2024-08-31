@@ -1,0 +1,277 @@
+/*body {
+    background-image: url(https://img.goodfon.com/original/1600x900/1/91/playstation-4-ps4-hi-tech.jpg)
+}
+
+.menu {
+
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translateY(-10%);
+    z-index: 10;
+    width: min-content;
+}
+
+.menu a {
+
+    display: block;
+    font-size: 4vmin;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--menu);
+    padding: 2rem 0;
+    transform: scale(.95);
+    opacity: .25;
+    transition: scale 500ms linear, opacity 200ms linear;
+    color: white;
+    cursor: pointer;
+
+}
+
+.playStation {
+    font-family: 'PlayStation', sans-serif;
+}
+
+.xbox {
+    font-family: 'XBOX Helvetica', sans-serif;
+
+}
+
+.switch {
+
+    font-family: 'Nintendo Switch UI', sans-serif;
+
+}
+
+.pc {
+    font-family: 'Nordica', sans-serif;
+
+}
+
+.menu:hover a:not(:hover) {
+    transform: scale(.95);
+    opacity: .25;
+}
+
+.menu a:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+*/
+/*---play---
+
+@import url(https://fonts.googleapis.com/css?family=Noticia+Text:700|Arimo);
+
+@keyframes startup {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes triangle-top {
+    from {
+        opacity: 0;
+        transform:
+            scale(1.5) translate(10px, 10px);
+    }
+
+    to {
+        opacity: 1;
+        transform:
+            scale(1) translate(0, 0);
+    }
+}
+
+@keyframes triangle-bottom {
+    from {
+        opacity: 0;
+        transform:
+            scale(1.5) translate(-10px, -10px);
+    }
+
+    to {
+        opacity: 1;
+        transform:
+            scale(1) translate(0, 0);
+    }
+}
+
+body {
+    background: linear-gradient(-45deg,
+            #EEEEEE 0%,
+            #ADA7A9 100%) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background: #CF5300;
+    background: linear-gradient(45deg,
+            #CF5300 0%,
+            #FFE400 50%,
+            #CF5300 100%);
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, .3);
+    display: block;
+    height: 100px;
+    margin: 20px auto;
+    position: relative;
+    transform: rotate(45deg);
+    width: 100px;
+
+    animation-name: startup;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+
+    &::before {
+        background: transparent;
+        background: linear-gradient(45deg,
+                #CF5300 20%,
+                transparent 50%,
+                transparent 100%);
+        content: '';
+        display: block;
+        height: 40%;
+        position: absolute;
+        left: 13%;
+        top: 10%;
+        width: 40%;
+
+        animation-name: triangle-top;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+    }
+
+    &::after {
+        background: transparent;
+        background: linear-gradient(225deg,
+                #CF5300 20%,
+                transparent 50%,
+                transparent 100%);
+        content: '';
+        display: block;
+        height: 40%;
+        position: absolute;
+        right: 13%;
+        bottom: 11%;
+        width: 40%;
+
+        animation-name: triangle-bottom;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+    }
+}
+
+.title {
+    animation-name: startup;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    color: #000066;
+    font-family: 'Noticia Text', serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: scale(1, .8);
+}
+
+.subtitle {
+    animation-name: startup;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    color: #000066;
+    font-family: Arimo;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: scale(1, .9);
+
+    span {
+        display: block;
+        font-size: 68%;
+        line-height: 1;
+    }
+}*/
+
+.proximoJuego1 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .proximoJuego1 img {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .proximoJuego1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff59;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .proximoJuego1:hover .contenido {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .titulo {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .descripcion {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .proximoJuego1:hover img {
+    scale: 0;
+  }
+  
